@@ -17,10 +17,12 @@ body {
   position: absolute;
   left: 17em;
   top: 12em;
+  transition: all 25ms linear;
 }
 
 .polaroid:hover {
   transform: rotate(30deg);
+  z-index: 300;
 }
 
 .polaroid > img {
