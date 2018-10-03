@@ -1,17 +1,26 @@
 html {
   background-color: #e2e2e2;
-
   font-family: sans-serif;
+}
+
+body {
+  position: relative;
 }
 
 .polaroid {
   margin: 0;
   padding: 10px;
   width: 250px;
-
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  position: absolute;
+  left: 17em;
+  top: 12em;
+}
+
+.polaroid:hover {
+  transform: rotate(30deg);
 }
 
 .polaroid > img {
