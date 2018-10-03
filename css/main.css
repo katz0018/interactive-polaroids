@@ -17,7 +17,7 @@ body {
   position: absolute;
   left: 17em;
   top: 12em;
-  transition: all 25ms linear;
+  transition: all 150ms linear;
 }
 
 .polaroid:hover {
