@@ -21,16 +21,16 @@ body {
 }
 
 .polaroid:nth-child(1) {
-  left: 20%;
-  top: 7em;
+  left: 21%;
+  top: 6em;
   transform: rotate(-14deg);
   z-index: 1;
 }
 
 .polaroid:nth-child(2) {
-  left: 30%;
-  top: 10em;
-  transform: rotate(3deg);
+  left: 31%;
+  top: 9em;
+  transform: rotate(5deg);
   z-index: 3;
 }
 
