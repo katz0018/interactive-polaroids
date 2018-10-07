@@ -44,6 +44,7 @@ body {
 .polaroid:hover {
   transform: rotate(0deg);
   z-index: 5;
+  box-shadow: 1px 4px 30px rgba(0, 0, 0, 1);
 }
 
 .polaroid > img {
